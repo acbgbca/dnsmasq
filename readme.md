@@ -2,6 +2,13 @@
 
 This is a very basic dnsmasq docker container that allows setting the dnsmasq configuration via environment variable.
 
+It has a single tag: ```latest```
+
+If you need more granular control of the version you can use digest pinning. I.e.
+```ghcr.io/acbgbca/dnsmasq:latest@sha256:260d0fb07d1c1e75e83218d24c4a2ebb8c87bde0a1d345bc5c91dbae1a6b3470```
+
+If you want a practicle use for this container, see [https://github.com/acbgbca/k3s-sandbox](https://github.com/acbgbca/k3s-sandbox)
+
 ## To run the container
 
 ```docker run ghcr.io/acbgbca/dnsmasq```
