@@ -1,0 +1,11 @@
+services:
+  dnsmasq:
+    build: .
+    environment:
+      - |
+        DNSMASQ_CONF=
+        address=/local/192.168.132.5
+        address=/internal/192.168.132.5
+        address=/within/192.168.132.5
+    ports:
+      - 1053:53/udp

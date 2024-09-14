@@ -1,0 +1,15 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "config:recommended",
+        "docker:enableMajor"
+    ],
+    "assignees": [
+        "acbgbca"
+    ],
+    "configMigration": true,
+    "commitBodyTable": true,
+    "automergeStrategy": "fast-forward",
+    "commitMessagePrefix": "[Renovate] ",
+    "automerge": true
+}
