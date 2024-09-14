@@ -1,4 +1,4 @@
-name: Minecraft Bedrock Docker
+name: Build dnsmasq container
 
 on:
   workflow_dispatch:
